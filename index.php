@@ -10,9 +10,9 @@
 
 <body>
     <main>
-        <form action="word_censor" method="post">
+        <form action="word_censor.php" method="post">
             <label for="input_text">Enter some text</label>
-            <textarea type="text" name="text" cols="30" rows="5"></textarea>
+            <textarea type="text" name="input_text" cols="30" rows="5"></textarea>
             <label for="censored-word">Enter the word to censor</label>
             <input type="text" name="censored_word">
             <button type="submit">Send</button>
